@@ -212,7 +212,7 @@ export const navLinks = [
     icon: <TbSpeedboat />,
   },
   { title: "Our offer", href: "/#offer", icon: <GrCatalog /> },
-  { title: "Pricing", href: "/#pricing", icon: <IoPricetagOutline /> },
+  { title: "Pricing", href: "/#price", icon: <IoPricetagOutline /> },
 ];
 
 export const navLinksAccount = [

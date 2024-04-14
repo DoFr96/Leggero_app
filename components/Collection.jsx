@@ -13,6 +13,14 @@ import { GoPeople } from "react-icons/go";
 import { IoBoatOutline } from "react-icons/io5";
 import { PiEngineBold } from "react-icons/pi";
 
+import {
+  AnimatePresence,
+  motion,
+  useScroll,
+  useMotionValueEvent,
+  MotionConfig,
+} from "framer-motion";
+
 const Collection = () => {
   const slider = React.useRef(null);
   const settings = {
@@ -43,71 +51,73 @@ const Collection = () => {
           const { id, name, motor, people, price, alt, img, length, time } =
             boats;
           return (
-            <div
-              key={id}
-              className="group px-1 py-3 bg-collection1/30 flex flex-col rounded-xl shadow-md mb-3 transition-colors duration-300 ease-in-out hover:bg-collection2/30   "
-            >
-              <div className="flex flex-col justify-start items-center px-5  ">
-                {/* Person Length Name Motor */}
-                <div className="flex flex-row justify-start items-center gap-3 mb-5 ">
-                  {/* People and length */}
-                  <div className="flex flex-col justify-start  items-center ">
-                    {/* People */}
-                    <div className="flex flex-row justify-center items-center gap-1 bg-secondary px-3 mb-[4px]    rounded-xl text-white font-semibold ">
-                      <p>{people}</p>
-                      <GoPeople />
+            <Reveal key={id}>
+              <div className="group px-1 py-3 bg-collection1/30 flex flex-col rounded-xl shadow-md mb-3 transition-colors duration-300 ease-in-out hover:bg-collection2/30   ">
+                <div className="flex flex-col justify-start items-center px-5  ">
+                  {/* Person Length Name Motor */}
+                  <div className="flex flex-row justify-start items-center gap-3 mb-5 ">
+                    {/* People and length */}
+                    <div className="flex flex-col justify-start  items-center ">
+                      {/* People */}
+                      <div className="flex flex-row justify-center items-center gap-1 bg-secondary px-3 mb-[4px]    rounded-xl text-white font-semibold ">
+                        <p>{people}</p>
+                        <GoPeople />
+                      </div>
+                      <div className="flex flex-row justify-center items-center gap-1 ">
+                        <IoBoatOutline />
+                        <p className="text-black/30 font-medium">{length}</p>
+                      </div>
                     </div>
-                    <div className="flex flex-row justify-center items-center gap-1 ">
-                      <IoBoatOutline />
-                      <p className="text-black/30 font-medium">{length}</p>
-                    </div>
-                  </div>
 
-                  <div className="flex flex-col justify-center items-start ">
-                    <h3 className="text-[20px] font-semibold">{name}</h3>
-                    <div className="flex flex-row justify-center items-center gap-1">
-                      <PiEngineBold />
-                      <p className="text-black/30 font-medium">{motor}</p>
+                    <div className="flex flex-col justify-center items-start ">
+                      <h3 className="text-[20px] font-semibold">{name}</h3>
+                      <div className="flex flex-row justify-center items-center gap-1">
+                        <PiEngineBold />
+                        <p className="text-black/30 font-medium">{motor}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="relative overflow-hidden rounded-xl ">
-                  <Image
-                    width={0}
-                    src={img}
-                    height={0}
-                    alt={alt}
-                    sizes="200vw"
-                    style={{ width: "100%", height: "auto" }}
-                    className="rounded-xl group-hover:scale-110 transition duration-500"
-                  />
-                </div>
-                {/* time and price */}
-                <div className="flex flex-row gap-3 items-center justify-center my-5">
-                  <div className="flex flex-col text-[17px]">
-                    {time.map((itemTime, index) => {
-                      return <p key={index}>{itemTime} </p>;
-                    })}
+                  <div className="relative overflow-hidden rounded-xl ">
+                    <Image
+                      width={0}
+                      src={img}
+                      height={0}
+                      alt={alt}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      className="rounded-xl group-hover:scale-110 transition duration-500"
+                    />
                   </div>
-                  <div className="flex flex-col ">
-                    {" "}
-                    {price.map((itemPrice, index) => {
-                      return (
-                        <div key={index} className="flex flex-row items-center">
-                          <p className="font-semibold text-secondary text-[17px]">
-                            {itemPrice}
-                          </p>
-                          <p className="">€ per day</p>
-                        </div>
-                      );
-                    })}
+                  {/* time and price */}
+                  <div className="flex flex-row gap-3 items-center justify-center my-5">
+                    <div className="flex flex-col text-[17px]">
+                      {time.map((itemTime, index) => {
+                        return <p key={index}>{itemTime} </p>;
+                      })}
+                    </div>
+                    <div className="flex flex-col ">
+                      {" "}
+                      {price.map((itemPrice, index) => {
+                        return (
+                          <div
+                            key={index}
+                            className="flex flex-row items-center"
+                          >
+                            <p className="font-semibold text-secondary text-[17px]">
+                              {itemPrice}
+                            </p>
+                            <p className="">€ per day</p>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
+                  <button className="bg-secondary rounded-xl font-medium text-[18px] py-[0.5px] w-[40%] mb-2 text-white hover:bg-secHover hover:text-white  transition-colors duration-300 ease-in-out ">
+                    Rent
+                  </button>
                 </div>
-                <button className="bg-secondary rounded-xl font-medium text-[18px] py-[0.5px] w-[40%] mb-2 text-white hover:bg-secHover hover:text-white  transition-colors duration-300 ease-in-out ">
-                  Rent
-                </button>
               </div>
-            </div>
+            </Reveal>
           );
         })}
       </div>

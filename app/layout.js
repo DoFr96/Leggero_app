@@ -16,8 +16,8 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata = {
-  title: "Leggero",
-  description: "Rent a boat, kayak, paddle board and electric scooter",
+  title: "Leggero - Cres Rent a Boat",
+  description: "Cres rent a boat, kayak, paddle board and electric scooter",
 };
 
 export default function RootLayout({ children }) {
