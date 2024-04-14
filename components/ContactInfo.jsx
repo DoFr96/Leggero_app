@@ -18,7 +18,7 @@ const ContactInfo = () => {
   return (
     <section className="border-b-[0.5px] border-gray-100">
       <div className="sm:px-16 px-6  sm:max-w-[1280px] mx-auto  overflow-hidden flex justify-between ">
-        <div className="flex flex-row justify-start items-center xs:gap-5 gap-1">
+        <div className="flex flex-row justify-start items-center xs:gap-5 gap-3">
           <Reveal>
             <div className="flex items-center justify-center gap-1">
               <FaPhoneSquareAlt />
@@ -33,9 +33,15 @@ const ContactInfo = () => {
               <MdEmail />
               <a
                 href="mailto:rentaboatleggero@gmail.com"
-                className="text-info text-[14px]"
+                className="text-info text-[14px] sm:block hidden"
               >
                 rentaboatleggero@gmail.com
+              </a>
+              <a
+                href="mailto:rentaboatleggero@gmail.com"
+                className="text-info text-[14px] sm:hidden block "
+              >
+                rentaboatleggero
               </a>
             </div>
           </Reveal>

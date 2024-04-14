@@ -42,20 +42,18 @@ const Hero2 = () => {
               className="flex justify-center items-end "
             >
               {" "}
-              <Reveal>
-                <Image
-                  alt={alt}
-                  src={img}
-                  fill
-                  sizes="(max-width: 640px) 100vw, 25vw"
-                  style={{
-                    objectFit: "cover",
-                    zIndex: -1,
-                    // cover, contain, none
-                  }}
-                  className=""
-                />
-              </Reveal>
+              <Image
+                alt={alt}
+                src={img}
+                fill
+                sizes="(max-width: 640px) 100vw, 25vw"
+                style={{
+                  objectFit: "cover",
+                  zIndex: -1,
+                  // cover, contain, none
+                }}
+                className=""
+              />
               <Reveal>
                 <p className="text-[20px] font-medium px-4 py-[0.5px] bg-secondary text-white rounded-full mb-10">
                   {desc}
