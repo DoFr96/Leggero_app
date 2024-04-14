@@ -1,0 +1,44 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button.main_btn {
+ @apply bg-secondary text-white px-6 py-2 rounded-xl font-semibold text-[18px] hover:shadow-md active:bg-secondary/90 hover:shadow-black/30 transition-all
+}
+
+.main_text {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-[#f5af19] to-secondary
+}
+
+.main_bg {
+  @apply  bg-gradient-to-r from-[#f5af19] to-secondary
+}
+
+
+.slick-center .slide-center {
+    @apply bg-secondary  hover:bg-secondary/90 hover:shadow-md hover:shadow-black/30 transition-all
+  }
+
+  .slide-center {
+    @apply   hover:bg-dimBlack/90 hover:shadow-md hover:shadow-black/30 transition-all 
+  }
+
+  .slick-slide > div {
+    margin: 0 10px;
+
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color:orange !important;
+  }
+
+
+
+
+
+
+    
+  
