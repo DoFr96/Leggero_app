@@ -29,7 +29,7 @@ const Experience = () => {
     >
       <Reveal>
         <h3 className="sm:text-[50px] sm:leading-[70px] leading-[50px] text-[37px] text-center font-medium w-full mb-10">
-          Experience to remember
+          Experience To Remember
         </h3>
       </Reveal>
 

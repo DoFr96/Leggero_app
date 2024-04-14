@@ -37,7 +37,7 @@ const Collection = () => {
   return (
     <section
       id="collection"
-      className="sm:px-16 px-6 sm:max-w-[1280px] mx-auto  overflow-hidden"
+      className="sm:px-10 px-6 sm:max-w-[1280px] mx-auto  overflow-hidden"
     >
       <div className="flex justify-center items-center my-5">
         <Reveal>
@@ -77,7 +77,7 @@ const Collection = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="relative overflow-hidden rounded-xl ">
+                  <div className="relative w-full overflow-hidden rounded-xl ">
                     <Image
                       width={0}
                       src={img}

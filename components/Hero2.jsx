@@ -18,7 +18,7 @@ import { Reveal } from "./Reveal";
 
 const Hero2 = () => {
   return (
-    <section id="home" className="overflow-hidden sm:py-16 py-6">
+    <section id="home" className="overflow-hidden sm:pb-16 pb-6 z-1 -mt-1">
       <div className="grid md:grid-cols-4 grid-cols-2 gap-0    ">
         {/*
  <div
