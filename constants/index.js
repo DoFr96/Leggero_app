@@ -252,7 +252,7 @@ export const boatList = [
   {
     id: "bsc",
     name: "BSC",
-    motor: "Evinrude E-tec",
+    motor: "Evinrude E-tec 150ks",
     people: "10",
     length: "5,71m",
     img: `/images/bsc_11.jpg`,
@@ -263,7 +263,7 @@ export const boatList = [
   {
     id: "marlin_20",
     name: "Marlin 20",
-    motor: "Suzuki",
+    motor: "Suzuki 150ks",
     people: "12",
     length: "6,00m",
     img: `/images/marlin20_1.jpg`,
@@ -274,7 +274,7 @@ export const boatList = [
   {
     id: "dulkan_420_dz",
     name: "Dulkan 420 DZ",
-    motor: "Suzuki DF ",
+    motor: "Suzuki DF 6ks ",
     people: "6",
     length: "4,20m",
     img: `/images/dulkan420dz_11.jpg`,

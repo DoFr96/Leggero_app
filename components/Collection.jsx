@@ -85,7 +85,7 @@ const Collection = () => {
                       alt={alt}
                       sizes="100vw"
                       style={{ width: "100%", height: "auto" }}
-                      className="rounded-xl group-hover:scale-110 transition duration-500"
+                      className="rounded-xl group-hover:scale-110 overflow-hidden select-none transition duration-500"
                     />
                   </div>
                   {/* time and price */}

@@ -197,7 +197,7 @@ const Nav = () => {
                     className="h-[2.5px] bg-secondary"
                   />
                   {/* social media links for mobile navbar */}
-                  <div className="flex flex-row justify-center items-center md:mt-0 mt-4">
+                  <div className="flex flex-row justify-center items-center md:my-0 my-4">
                     {socialMedia.map((social, index) => (
                       <motion.div
                         key={index}
@@ -217,6 +217,24 @@ const Nav = () => {
                       </motion.div>
                     ))}
                   </div>
+                  <motion.hr
+                    variants={mobileLinkVars}
+                    className="h-[2.5px] bg-secondary"
+                  />
+                  {/* location bottom */}
+                  <motion.div
+                    variants={mobileLinkVars}
+                    whileHover={{
+                      scale: 1.1,
+                      originX: 0,
+                    }}
+                    whileTap={{ scale: 0.8 }}
+                    transition={{ type: "tween" }}
+                    className="text-[18px] flex flex-row justify-center items-center gap-1 md:mt-0 mt-4"
+                  >
+                    <FaLocationDot className="text-secondary" />
+                    <p>Cres Kovačine</p>
+                  </motion.div>
                 </motion.div>
               </div>
             </motion.div>
