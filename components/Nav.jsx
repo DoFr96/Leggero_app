@@ -85,7 +85,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="   pt-2 flex flex-row justify-between items-center sm:px-16 px-6 sm:max-w-[1280px] mx-auto  overflow-hidden shadow-lg shadow-black/50  pb-2 z-10 mb-1 ">
+    <nav className="  py-2 flex flex-row justify-between items-center sm:px-16 px-6 sm:max-w-[1280px] mx-auto  overflow-hidden shadow-lg shadow-black/50  z-50 relative  ">
       <div>
         <Reveal>
           <Link href={"/"}>

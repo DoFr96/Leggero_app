@@ -35,30 +35,21 @@ const Hero3 = () => {
           return (
             <div
               key={id}
-              style={{
-                position: "relative",
-                height: "400px",
-              }}
-              className="flex justify-center items-end "
+              className="flex flex-col  justify-center items-center"
             >
-              {" "}
-              <Image
-                alt={alt}
-                src={img}
-                fill
-                sizes="(max-width: 640px) 100vw, 25vw"
-                style={{
-                  objectFit: "cover",
-                  zIndex: -1,
-                  // cover, contain, none
-                }}
-                className=""
-              />
-              <Reveal>
-                <p className="text-[20px] font-medium px-4 py-[0.5px] bg-secondary text-white rounded-full mb-10">
-                  {desc}
-                </p>
-              </Reveal>
+              <div className="relative -z-10">
+                <Image
+                  alt={alt}
+                  src={img}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+              <p className="text-[20px] font-medium px-4 py-[0.5px] bg-secondary text-white rounded-full -mt-[100px] z-10">
+                {desc}
+              </p>
             </div>
           );
         })}

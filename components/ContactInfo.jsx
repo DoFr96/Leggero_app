@@ -16,7 +16,7 @@ import { Reveal } from "./Reveal";
 
 const ContactInfo = () => {
   return (
-    <section className="border-b-[0.5px] border-gray-100">
+    <section className="border-b-[0.5px] border-gray-200">
       <div className="sm:px-16 px-6  sm:max-w-[1280px] mx-auto  overflow-hidden flex justify-between ">
         <div className="flex flex-row justify-start items-center xs:gap-5 gap-3">
           <Reveal>

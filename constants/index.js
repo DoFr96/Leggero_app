@@ -223,26 +223,26 @@ export const navLinksAccount = [
 export const heroImages = [
   {
     id: "boat_section",
-    img: `/images/lomac8_10.jpg`,
+    img: `/images/lomac1_1.jpg`,
     alt: "boat",
     desc: "Boats",
   },
   {
     id: "paddleBoard_section",
-    img: `/images/girlonpaddleboard.jpg`,
+    img: `/images/paddleboard1_1.jpg`,
     alt: "paddle board",
     desc: "Paddle Boards",
   },
 
   {
     id: "kayak_section",
-    img: `/images/kayak8_10.jpg`,
+    img: `/images/kayak1_1.jpg`,
     alt: "kayak",
     desc: "Kayaks",
   },
   {
     id: "scooter",
-    img: `/images/scooter8_10.jpg`,
+    img: `/images/scooter.jpg`,
     alt: "scooter",
     desc: "Electric Scooters",
   },

@@ -102,7 +102,7 @@ const Experience = () => {
             </Reveal>
           </div>
 
-          <div class="grid gap-4">
+          <div className="grid gap-4">
             <Reveal>
               <div>
                 {/* 1:1 format */}
@@ -133,7 +133,7 @@ const Experience = () => {
               </div>
             </Reveal>
           </div>
-          <div class="grid gap-4">
+          <div className="grid gap-4">
             <Reveal>
               <div>
                 {/* 8:10 format */}
@@ -164,7 +164,7 @@ const Experience = () => {
               </div>
             </Reveal>
           </div>
-          <div class="grid gap-4">
+          <div className="grid gap-4">
             <Reveal>
               <div>
                 {/* 1:1 format */}
