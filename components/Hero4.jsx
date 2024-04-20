@@ -35,11 +35,15 @@ const Hero4 = () => {
           return (
             <div key={id} className=" relative  ">
               {/* Overlay */}
-              <div className="absolute w-full h-full group-hover:bg-black/50 ">
-                <p className="sm:text-[20px] font-medium  bg-secondary text-white  rounded-r-xl px-4 py-[0.5px]    absolute sm:bottom-6 bottom-4">
-                  {desc}
-                </p>
+
+              <div className="absolute w-full h-full ">
+                <Reveal>
+                  <p className="sm:text-[20px] font-medium  bg-secondary text-white  rounded-r-xl px-4 py-[0.5px]    absolute sm:bottom-6 bottom-4">
+                    {desc}
+                  </p>
+                </Reveal>
               </div>
+
               <img alt={alt} src={img} className=" w-full object-cover   " />
             </div>
           );

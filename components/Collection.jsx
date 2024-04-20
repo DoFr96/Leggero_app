@@ -41,7 +41,7 @@ const Collection = () => {
     >
       <div className="flex justify-center items-center my-5">
         <Reveal>
-          <h3 className="sm:text-[50px] sm:leading-[70px] leading-[55px] text-[42px] text-center font-medium w-full z-10   ">
+          <h3 className="sm:text-[50px] sm:leading-[70px] leading-[50px] text-[37px] text-center font-medium w-full z-10   ">
             Our Collection of Boats
           </h3>
         </Reveal>
@@ -101,12 +101,12 @@ const Collection = () => {
                         return (
                           <div
                             key={index}
-                            className="flex flex-row items-center"
+                            className="flex flex-row items-center justify-center"
                           >
                             <p className="font-semibold text-secondary text-[17px]">
                               {itemPrice}
                             </p>
-                            <p className="">€ per day</p>
+                            <p className="">&euro; per day</p>
                           </div>
                         );
                       })}

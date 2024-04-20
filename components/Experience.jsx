@@ -11,7 +11,7 @@ import malilosinj from "../public/images/malilosinj1_1.jpg";
 import valun from "../public/images/valun1_1.jpg";
 import sup from "../public/images/sup8_10.jpg";
 import seakayak from "../public/images/seakayak1_1.jpg";
-
+import crestown from "../public/images/latest/crestown8_10.jpg";
 import {
   AnimatePresence,
   motion,
@@ -41,8 +41,10 @@ const Experience = () => {
 
           <Reveal>
             <p className="mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-              nulla cum aperiam ratione porro fugit?
+              The small fishing village of Valun is located on the southern
+              coast of the Cres Bay. Between the hill and the coast itself where
+              on the hill terraced houses rise from the sea to the top of the
+              hill.
             </p>
           </Reveal>
 
@@ -52,19 +54,23 @@ const Experience = () => {
 
           <Reveal>
             <p className="mb-5">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique ea quas autem quis itaque corporis!
+              There is this beautiful pebble beach - one of the most beautiful
+              hidden beaches in the world. The German magazine Bild ranked it
+              15th in the competition of the 40 most beautiful beaches in the
+              world.
             </p>
           </Reveal>
 
           <Reveal>
-            <h4 className="text-[20px] font-medium ">Mali Losinj</h4>
+            <h4 className="text-[20px] font-medium ">Cres</h4>
           </Reveal>
 
           <Reveal>
             <p className="mb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Incidunt, minus voluptas vitae amet error consectetur?
+              The best way to experience the city and its medieval architecture
+              is to take a walk through numerous small streets in the old city
+              centre. Narrow and high small houses attaching to each other and
+              streets winding in a maze.
             </p>
           </Reveal>
         </div>
@@ -185,7 +191,7 @@ const Experience = () => {
                 {/* 8:10 format */}
                 <Image
                   width={0}
-                  src={boatMain}
+                  src={crestown}
                   height={0}
                   alt="alt"
                   sizes="100vw"

@@ -223,26 +223,26 @@ export const navLinksAccount = [
 export const heroImages = [
   {
     id: "boat_section",
-    img: `/images/lomac1_1.jpg`,
+    img: `/images/latest/boatwebP.webp`,
     alt: "boat",
     desc: "Boats",
   },
   {
     id: "paddleBoard_section",
-    img: `/images/paddleboard1_1.jpg`,
+    img: `/images/latest/paddleboard1_1webP.webp`,
     alt: "paddle board",
     desc: "Paddle Boards",
   },
 
   {
     id: "kayak_section",
-    img: `/images/kayak1_1.jpg`,
+    img: `/images/latest/kayak1_1webP.webp`,
     alt: "kayak",
     desc: "Kayaks",
   },
   {
     id: "scooter",
-    img: `/images/scooter.jpg`,
+    img: `/images/latest/elscooterwebP0.webp`,
     alt: "scooter",
     desc: "Electric Scooters",
   },
@@ -257,8 +257,8 @@ export const boatList = [
     length: "5,71m",
     img: `/images/bsc_11.jpg`,
     alt: "bsc_boat",
-    time: ["01.06. - 06.07.", "07.07. - 03.09.", "04.09. - 30.09."],
-    price: ["150", "190", "150"],
+    time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
+    price: ["230", "280", "230"],
   },
   {
     id: "marlin_20",
@@ -268,8 +268,8 @@ export const boatList = [
     length: "6,00m",
     img: `/images/marlin20_1.jpg`,
     alt: "marlin_boat",
-    time: ["01.06. - 06.07.", "07.07. - 03.09.", "04.09. - 30.09."],
-    price: ["150", "190", "150"],
+    time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
+    price: ["250", "300", "250"],
   },
   {
     id: "dulkan_420_dz",
@@ -279,8 +279,8 @@ export const boatList = [
     length: "4,20m",
     img: `/images/dulkan420dz_11.jpg`,
     alt: "dulkan_boat",
-    time: ["01.06. - 06.07.", "07.07. - 03.09.", "04.09. - 30.09."],
-    price: ["150", "190", "150"],
+    time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
+    price: ["60", "90", "60"],
   },
   {
     id: "dulkan_420_dz2",
@@ -290,8 +290,8 @@ export const boatList = [
     length: "4,20m",
     img: `/images/dulkan420dz_11.jpg`,
     alt: "dulkan2_boat",
-    time: ["01.06. - 06.07.", "07.07. - 03.09.", "04.09. - 30.09."],
-    price: ["150", "190", "150"],
+    time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
+    price: ["80", "100", "80"],
   },
   {
     id: "gruppo_mare_pholas_23",
@@ -301,8 +301,8 @@ export const boatList = [
     length: "6,98m",
     img: `/images/gruppomarepholas23.jpg`,
     alt: "gruppo_boat",
-    time: ["01.06. - 06.07.", "07.07. - 03.09.", "04.09. - 30.09."],
-    price: ["150", "190", "150"],
+    time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
+    price: ["300", "350", "300"],
   },
   {
     id: "blumax_open_550",
@@ -312,8 +312,8 @@ export const boatList = [
     length: "5,65m",
     img: `/images/blumaxopen550_1.jpg`,
     alt: "blumax_boat",
-    time: ["01.06. - 06.07.", "07.07. - 03.09.", "04.09. - 30.09."],
-    price: ["150", "190", "150"],
+    time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
+    price: ["160", "200", "160"],
   },
   {
     id: "lomac_520",
@@ -323,7 +323,7 @@ export const boatList = [
     length: "5,14m",
     img: `/images/lomac1_1.jpg`,
     alt: "lomac_boat",
-    time: ["01.06. - 06.07.", "07.07. - 03.09.", "04.09. - 30.09."],
-    price: ["150", "190", "150"],
+    time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
+    price: ["60", "90", "60"],
   },
 ];
