@@ -52,7 +52,7 @@ const Collection = () => {
             boats;
           return (
             <Reveal key={id}>
-              <div className="group px-1 py-3 bg-collection1/30 flex flex-col rounded-xl shadow-md mb-3 transition-colors duration-300 ease-in-out hover:bg-collection2/30   ">
+              <div className="group px-1 py-3 bg-collection1/30 flex flex-col rounded-xl shadow-md mb-3 transition-colors duration-300 ease-in-out hover:bg-collection2/40   ">
                 <div className="flex flex-col justify-start items-center px-5  ">
                   {/* Person Length Name Motor */}
                   <div className="flex flex-row justify-start items-center gap-3 mb-5 ">

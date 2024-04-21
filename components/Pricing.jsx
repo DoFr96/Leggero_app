@@ -24,9 +24,15 @@ const Pricing = () => {
           Pricing
         </h3>
       </Reveal>
-      <Reveal>
-        <div class="flex flex-col justify-between items-center lg:flex-row lg:items-start sm:pb-0 pb-2">
-          <div class="w-full flex-1 mt-8 p-8 order-2 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 lg:rounded-r-none">
+      <a href="https://api.whatsapp.com/send?phone=385915085318&text=Send20%a20%quote">
+        Send Message
+      </a>
+
+      <div class="flex flex-col justify-between items-center lg:flex-row lg:items-start pb-1 ">
+        {/* Paddle board section here */}
+
+        <div class="w-full flex-1 mt-8 p-8 order-2 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-1 lg:rounded-r-none">
+          <Reveal>
             <div class="mb-7 pb-7 flex items-center border-b border-gray-300">
               <Image
                 src={sup1}
@@ -41,7 +47,7 @@ const Pricing = () => {
                   <span class="font-medium text-gray-500 text-xl align-top">
                     &euro;&thinsp;
                   </span>
-                  <span class="text-3xl font-bold">10 </span>
+                  <span class="text-3xl font-bold">10</span>
                 </span>
                 <span class="text-gray-500 font-medium">/ hour</span>
               </div>
@@ -53,13 +59,17 @@ const Pricing = () => {
             >
               Rent
             </a>
-          </div>
+          </Reveal>
+        </div>
 
-          <div class="w-full flex-1 p-8 order-1 shadow-xl rounded-3xl bg-gray-900 text-gray-400 sm:w-96 lg:w-full lg:order-2 lg:mt-0">
+        {/* Scooter section here */}
+
+        <div class="w-full flex-1 p-8 order-1 shadow-xl rounded-3xl bg-gray-900 text-gray-400 sm:w-96 lg:w-full lg:order-2 lg:mt-0">
+          <Reveal>
             <div class="mb-8 pb-8 flex items-center border-b border-gray-600">
               <Image
-                src={kajakk}
-                alt="sup"
+                src={romobil}
+                alt="scooter"
                 class="rounded-3xl"
                 width={70}
                 height={70}
@@ -84,13 +94,17 @@ const Pricing = () => {
             >
               Rent
             </a>
-          </div>
+          </Reveal>
+        </div>
 
-          <div class="w-full flex-1 mt-8 p-8 order-3 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-3 lg:rounded-l-none">
+        {/* Kayak section here */}
+
+        <div class="w-full flex-1 mt-8 p-8 order-3 bg-white shadow-xl rounded-3xl sm:w-96 lg:w-full lg:order-3 lg:rounded-l-none">
+          <Reveal>
             <div class="mb-7 pb-7 flex items-center border-b border-gray-300">
               <Image
-                src={romobil}
-                alt="sup"
+                src={kajakk}
+                alt="kayak"
                 class="rounded-3xl"
                 width={70}
                 height={70}
@@ -113,9 +127,9 @@ const Pricing = () => {
             >
               Rent
             </a>
-          </div>
+          </Reveal>
         </div>
-      </Reveal>
+      </div>
     </section>
   );
 };
