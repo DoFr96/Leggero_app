@@ -113,12 +113,12 @@ const Collection = () => {
                     </div>
                   </div>
                   <a
-                    href={`https://api.whatsapp.com/send?phone=385916005586&text=${name}`}
+                    href={`https://api.whatsapp.com/send?phone=385995163294&text=${name}`}
                   >
                     Dynamic atribute
                   </a>
                   <a
-                    href={`https://api.whatsapp.com/send?phone=385916005586&text=I%20want%20to%20rent%20a%20${name}%20for%20a%20day`}
+                    href={`https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20a%20${name}%20for%20a%20day`}
                   >
                     Dynamic extra
                   </a>
