@@ -112,6 +112,16 @@ const Collection = () => {
                       })}
                     </div>
                   </div>
+                  <a
+                    href={`https://api.whatsapp.com/send?phone=385916005586&text=${name}`}
+                  >
+                    Dynamic atribute
+                  </a>
+                  <a
+                    href={`https://api.whatsapp.com/send?phone=385916005586&text=I%20want%20to%20rent%20a%20${name}%20for%20a%20day`}
+                  >
+                    Dynamic extra
+                  </a>
                   <button className="bg-secondary rounded-xl font-medium text-[18px] py-[0.5px] w-[40%] mb-2 text-white hover:bg-secHover hover:text-white  transition-colors duration-300 ease-in-out ">
                     Rent
                   </button>

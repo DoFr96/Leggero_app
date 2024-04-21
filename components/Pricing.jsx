@@ -24,34 +24,19 @@ const Pricing = () => {
           Pricing
         </h3>
       </Reveal>
-      <a href="https://api.whatsapp.com/send?phone=385915085318">
-        Send Message with 385 no message
-      </a>
       <a
-        href="https://api.whatsapp.com/send?phone=385915085318&text=Send
+        href="https://api.whatsapp.com/send?phone=385916005586&text=Send
       %20a%20quote"
       >
         Send Message with 385 message but whatssap
       </a>
-      <a href="https://api.whatsapp.com/send?phone=+385915085318&text=Send20%a20%quote">
-        Send Message with +385
-      </a>
-      <a href="https://api.whatsapp.com/send?phone=385915085318&text=Send20%a20%quote">
-        Send Message with 385
-      </a>
-      <a href="https://api.whatsapp.com/send?phone=0385915085318&text=Send20%a20%quote">
-        Send Message 0385
-      </a>
-      <a href="https://api.whatsapp.com/send?phone=00385915085318&text=Send%20a%20quote">
-        Send Message with 00385
-      </a>
-      <a href="https://api.whatsapp.com/send?phone=+00385915085318&text=Send%20a%20quote">
-        Send Message with +00385
+      <a
+        href="https://api.whatsapp.com/send?phone=385916005586&text=Send
+      %20a%20quote"
+      >
+        Send Message with 385 message but whatssap and dynamic atribute
       </a>
 
-      <a href="whatsapp://send?text=Hello World!&phone=+00385915085318">
-        Ping me on WhatsApp +00385
-      </a>
       <a href="whatsapp://send?text=Hello World!&phone=+385915085318">
         Ping me on WhatsApp +385
       </a>
@@ -84,7 +69,8 @@ const Pricing = () => {
             </div>
 
             <a
-              href="#/"
+              href="https://api.whatsapp.com/send?phone=385915085318&text=I
+              %20want%20to%20rent%20a%20paddle%20board%20for%20a%20day"
               class="flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl"
             >
               Rent
@@ -119,7 +105,8 @@ const Pricing = () => {
             </div>
 
             <a
-              href="#/"
+              href="https://api.whatsapp.com/send?phone=385915085318&text=I
+             %20want%20to%20rent%20an%20electric%20scooter%20for%20a%20day"
               class="flex justify-center items-center bg-secondary rounded-xl py-3 px-4 text-center text-white text-2xl"
             >
               Rent
@@ -152,7 +139,8 @@ const Pricing = () => {
             </div>
 
             <a
-              href="#/"
+              href="https://api.whatsapp.com/send?phone=385915085318&text=I
+              %20want%20to%20rent%20a%20kayak%20for%20a%20day"
               class="flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl"
             >
               Rent
