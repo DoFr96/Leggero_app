@@ -51,8 +51,8 @@ const Pricing = () => {
             </div>
 
             <a
-              href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20a%20paddle%20board%20for%20a%20day"
-              class="flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl"
+              href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20paddle%20board%20for%20a%20day"
+              class="flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl transition-colors duration-300 ease-in-out hover:bg-secHover"
             >
               Rent
             </a>
@@ -86,8 +86,8 @@ const Pricing = () => {
             </div>
 
             <a
-              href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20an%20electric%20scooter%20for%20a%20day"
-              class="flex justify-center items-center bg-secondary rounded-xl py-3 px-4 text-center text-white text-2xl"
+              href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20electric%20scooter%20for%20a%20day"
+              class="flex justify-center items-center bg-secondary rounded-xl py-3 px-4 text-center text-white text-2xl transition-colors duration-300 ease-in-out hover:bg-secHover"
             >
               Rent
             </a>
@@ -119,8 +119,8 @@ const Pricing = () => {
             </div>
 
             <a
-              href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20a%20kayak%20for%20a%20day"
-              class="flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl"
+              href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20kayak%20for%20a%20day"
+              class="flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl transition-colors duration-300 ease-in-out hover:bg-secHover"
             >
               Rent
             </a>

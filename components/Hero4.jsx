@@ -1,10 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import boatMain from "../public/images/boatMain.jpg";
-import paddleBoard from "../public/images/paddleBoard.jpg";
-import scooter from "../public/images/scooter.jpg";
-import kayak from "../public/images/kayak.jpeg";
 import { heroImages } from "@/constants";
 import {
   AnimatePresence,
