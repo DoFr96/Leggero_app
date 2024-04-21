@@ -17,7 +17,8 @@ const sourceSans = Source_Sans_3({
 
 export const metadata = {
   title: "Leggero - Cres Rent a Boat",
-  description: "Cres rent a boat, kayak, paddle board and electric scooter",
+  description:
+    "Cres rent a boat, kayak, paddle board and electric scooter. Experience the island of Cres and its beautiful pebble beaches. ",
 };
 
 export default function RootLayout({ children }) {

@@ -24,7 +24,7 @@ import { Reveal } from "./Reveal";
 const Experience = () => {
   return (
     <section
-      id="offer"
+      id="experience"
       className="sm:px-16 px-6 sm:max-w-[1280px] mx-auto  overflow-hidden mt-20"
     >
       <Reveal>
