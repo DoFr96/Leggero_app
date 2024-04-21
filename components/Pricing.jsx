@@ -24,10 +24,40 @@ const Pricing = () => {
           Pricing
         </h3>
       </Reveal>
+      <a href="https://api.whatsapp.com/send?phone=385915085318">
+        Send Message with 385 no message
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=385915085318&text=Send
+      %20a%20quote"
+      >
+        Send Message with 385 message but whatssap
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=+385915085318&text=Send20%a20%quote">
+        Send Message with +385
+      </a>
       <a href="https://api.whatsapp.com/send?phone=385915085318&text=Send20%a20%quote">
-        Send Message
+        Send Message with 385
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=0385915085318&text=Send20%a20%quote">
+        Send Message 0385
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=00385915085318&text=Send%20a%20quote">
+        Send Message with 00385
+      </a>
+      <a href="https://api.whatsapp.com/send?phone=+00385915085318&text=Send%20a%20quote">
+        Send Message with +00385
       </a>
 
+      <a href="whatsapp://send?text=Hello World!&phone=+00385915085318">
+        Ping me on WhatsApp +00385
+      </a>
+      <a href="whatsapp://send?text=Hello World!&phone=+385915085318">
+        Ping me on WhatsApp +385
+      </a>
+      <a href="whatsapp://send?text=Hello World!&phone=385915085318">
+        Ping me on WhatsApp 385
+      </a>
       <div class="flex flex-col justify-between items-center lg:flex-row lg:items-start pb-1 ">
         {/* Paddle board section here */}
 
