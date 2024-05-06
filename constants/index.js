@@ -10,7 +10,7 @@ import { RiAccountPinBoxLine } from "react-icons/ri";
 
 import { IoLogoInstagram } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa6";
-import { BsTiktok } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 
 import { TbSpeedboat } from "react-icons/tb";
 import { PiBoatBold } from "react-icons/pi";
@@ -19,17 +19,12 @@ export const socialMedia = [
   {
     id: "instagram",
     icon: <IoLogoInstagram size={30} style={{ fill: "black" }} />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/rentaboatcres/?igsh=NnRyMjFzMWx1YnFp",
   },
   {
     id: "facebook",
-    icon: <BsTiktok size={30} style={{ fill: "black" }} />,
-    link: "https://www.tiktok.com/",
-  },
-  {
-    id: "twitter",
-    icon: <FaYoutube size={30} style={{ fill: "red" }} />,
-    link: "https://www.youtube.com/",
+    icon: <FaFacebook size={30} style={{ fill: "black" }} />,
+    link: "https://www.facebook.com/share/RvSpm1cJbsXHMWQk/?mibextid=LQQJ4d",
   },
 ];
 
@@ -153,6 +148,6 @@ export const boatList = [
     img: `/images/lomac1_1.jpg`,
     alt: "lomac_boat",
     time: ["01.05. - 30.06.", "01.07. - 31.08.", "01.09. - 30.09."],
-    price: ["60", "90", "60"],
+    price: ["150", "190", "150"],
   },
 ];

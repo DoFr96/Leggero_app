@@ -51,7 +51,10 @@ const Pricing = () => {
             </div>
 
             <button class="flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl transition-colors w-full duration-300 ease-in-out hover:bg-secHover">
-              <a href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20paddle%20board%20for%20a%20day">
+              <a
+                href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20paddle%20board%20for%20a%20day"
+                className="w-full"
+              >
                 Rent
               </a>
             </button>
@@ -86,7 +89,10 @@ const Pricing = () => {
 
             <button class="w-full flex justify-center items-center bg-secondary rounded-xl py-3 px-4 text-center text-white text-2xl transition-colors duration-300 ease-in-out hover:bg-secHover">
               {" "}
-              <a href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20electric%20scooter%20for%20a%20day">
+              <a
+                href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20electric%20scooter%20for%20a%20day"
+                className="w-full"
+              >
                 Rent
               </a>
             </button>
@@ -119,7 +125,10 @@ const Pricing = () => {
 
             <button class="w-full flex justify-center items-center bg-secondary rounded-xl py-2 px-4 text-center text-white text-xl transition-colors duration-300 ease-in-out hover:bg-secHover">
               {" "}
-              <a href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20kayak%20for%20a%20day">
+              <a
+                href="https://api.whatsapp.com/send?phone=385995163294&text=I%20want%20to%20rent%20kayak%20for%20a%20day"
+                className="w-full"
+              >
                 Rent
               </a>
             </button>

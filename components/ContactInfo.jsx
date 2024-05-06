@@ -4,7 +4,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa6";
-import { BsTiktok } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 import {
   AnimatePresence,
   motion,
@@ -49,14 +49,20 @@ const ContactInfo = () => {
 
         <div className="sm:flex hidden flex-row justify-center items-center gap-3">
           <Reveal>
-            <a href="https://www.instagram.com" target="_blank">
+            <a
+              href="https://www.instagram.com/rentaboatcres/?igsh=NnRyMjFzMWx1YnFp"
+              target="_blank"
+            >
               <IoLogoInstagram className="text-[20px]" />
             </a>
           </Reveal>
 
           <Reveal>
-            <a href="https://www.youtube.com" target="_blank">
-              <FaYoutube className="text-[20px]" />
+            <a
+              href="https://www.facebook.com/share/RvSpm1cJbsXHMWQk/?mibextid=LQQJ4d"
+              target="_blank"
+            >
+              <FaFacebook className="text-[20px]" />
             </a>
           </Reveal>
         </div>
