@@ -35,18 +35,47 @@ const Pricing = () => {
                 src={sup1}
                 alt="sup"
                 class="rounded-3xl"
-                width={70}
-                height={70}
+                width={90}
+                height={90}
               />
               <div class="ml-5">
                 <span class="block text-2xl font-semibold">Paddle board</span>
-                <span>
-                  <span class="font-medium text-gray-500 text-xl align-top">
-                    &euro;&thinsp;
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">10</span>
                   </span>
-                  <span class="text-3xl font-bold">10</span>
-                </span>
-                <span class="text-gray-500 font-medium">/ hour</span>
+                  <span class="text-gray-500 font-medium">/ h</span>
+                </div>
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">35</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 4h</span>
+                </div>
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">50</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 1d</span>
+                </div>
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">120</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 7d</span>
+                </div>
               </div>
             </div>
 
@@ -70,20 +99,40 @@ const Pricing = () => {
                 src={romobil}
                 alt="scooter"
                 class="rounded-3xl"
-                width={70}
-                height={70}
+                width={60}
+                height={60}
               />
               <div class="ml-5">
-                <span class="block text-3xl font-semibold text-white">
+                <span class="block text-3xl text-center font-semibold text-white">
                   Electric scooter
                 </span>
-                <span>
-                  <span class="font-medium text-xl align-top">
-                    &euro;&thinsp;
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">10</span>
                   </span>
-                  <span class="text-3xl font-bold text-white">10</span>
-                </span>
-                <span class="font-medium">/ hour</span>
+                  <span class="text-gray-500 font-medium">/ h</span>
+                </div>
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">35</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 4h</span>
+                </div>
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">35</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 1d</span>
+                </div>
               </div>
             </div>
 
@@ -112,14 +161,45 @@ const Pricing = () => {
                 height={70}
               />
               <div class="ml-5">
-                <span class="block text-2xl font-semibold">Kayak</span>
-                <span>
-                  <span class="font-medium text-gray-500 text-xl align-top">
-                    &euro;&thinsp;
-                  </span>
-                  <span class="text-3xl font-bold">10</span>
+                <span class="block text-2xl font-semibold">
+                  Kayak 2 persons
                 </span>
-                <span class="text-gray-500 font-medium">/ hour</span>
+                <div className="text-center w-full">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">20</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ h</span>
+                </div>
+                <div className="text-center w-full">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">55</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 4h</span>
+                </div>
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">65</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 1d</span>
+                </div>
+                <div className="text-center">
+                  <span>
+                    <span class="font-medium text-gray-500 text-xl align-top">
+                      &euro;&thinsp;
+                    </span>
+                    <span class="text-3xl font-bold">200</span>
+                  </span>
+                  <span class="text-gray-500 font-medium">/ 7d</span>
+                </div>
               </div>
             </div>
 
