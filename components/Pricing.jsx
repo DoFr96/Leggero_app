@@ -120,7 +120,7 @@ const Pricing = () => {
                     <span class="font-medium text-gray-500 text-xl align-top">
                       &euro;&thinsp;
                     </span>
-                    <span class="text-3xl font-bold">35</span>
+                    <span class="text-3xl font-bold">30</span>
                   </span>
                   <span class="text-gray-500 font-medium">/ 4h</span>
                 </div>
